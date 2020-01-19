@@ -4,7 +4,7 @@ class NavBar extends Component {
     render() {
         return (
             <div>
-                      <Menu inverted>
+                      <Menu inverted fixed='top'>
                         <Container>
                           <Menu.Item header>
                             <img src="assets/logo.png" alt="logo" />
